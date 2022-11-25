@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'aurora.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR /'aurora_shopapp.db' ,
+        'NAME': BASE_DIR /'shop.db' ,
     }
 }
 
